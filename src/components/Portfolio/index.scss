@@ -1,0 +1,52 @@
+h2 {
+  font-family: monospace;
+  color: #ffd700;
+  font-size: 24px;
+  text-align: center;
+}
+
+.btn {
+  color: #ffd700;
+    font-size: 11px;
+    font-weight: 400;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #ffd700;
+    animation: fadeIn 1s 1.8s backwards;
+    white-space: nowrap;
+    
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  background: #ffd700;
+  color: #333;
+}
+
+.portfolio-page {
+  
+  .portfolio-item {
+      position: grid;
+      float: left;
+      width: 300px;
+      margin-left: 7%;
+      height: auto;
+      background-color: #2c2c6c;
+      border-color: #000000 #4785F8;
+        border-image: none;
+        border-radius: 0 0 0 0;
+        -moz-border-radius: 0 0 0 0;
+        -webkit-border-radius: 0 0 0 0;
+        border-style: solid;
+        border-width: 20px;
+        height: 300px;
+        width: 300px;
+      margin-bottom: 150px;
+    }
+  
+    .portfolio-item img {
+      width: 100%;
+      height: auto;
+    }
+}

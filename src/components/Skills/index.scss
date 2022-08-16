@@ -1,0 +1,53 @@
+h1 {
+  color: #ffd700;
+    font-size: 75px;
+    margin: 0;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+  margin-bottom: 8rem;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+  margin: 13rem;
+  font-family: 'Coolvetica';
+}
+
+.skills-container > div {
+  background: #2c2c6c;
+  padding: 2.4rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.skills-container > div:hover {
+  background:transparent;
+  border-color: #2c2c6c;
+  cursor: default;
+}
+
+.skills-container > div h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color:#ffd700;
+  font-size: 45px;
+}
+
+.skills-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+}
+
+.skills-details {
+  color: #fff;
+  text-align: left;
+  font-size: 24px;
+}
+
+path {
+  color: #ffd700;
+}
