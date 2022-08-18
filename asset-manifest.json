@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-p-ericn/static/css/main.80fc7f13.css",
+    "main.css": "/react-p-ericn/static/css/main.d63fae45.css",
     "main.js": "/react-p-ericn/static/js/main.33ba4bd6.js",
     "static/js/787.67b99310.chunk.js": "/react-p-ericn/static/js/787.67b99310.chunk.js",
     "static/media/DinnerWithSchmucks.gif": "/react-p-ericn/static/media/DinnerWithSchmucks.6bf13d5d98c56b687cb6.gif",
@@ -15,12 +15,12 @@
     "static/media/LaBelleAurore.woff2": "/react-p-ericn/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/react-p-ericn/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/react-p-ericn/index.html",
-    "main.80fc7f13.css.map": "/react-p-ericn/static/css/main.80fc7f13.css.map",
+    "main.d63fae45.css.map": "/react-p-ericn/static/css/main.d63fae45.css.map",
     "main.33ba4bd6.js.map": "/react-p-ericn/static/js/main.33ba4bd6.js.map",
     "787.67b99310.chunk.js.map": "/react-p-ericn/static/js/787.67b99310.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.80fc7f13.css",
+    "static/css/main.d63fae45.css",
     "static/js/main.33ba4bd6.js"
   ]
 }
