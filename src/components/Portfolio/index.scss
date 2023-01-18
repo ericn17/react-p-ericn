@@ -1,52 +1,80 @@
 h2 {
   font-family: monospace;
-  color: #ffd700;
+  color: #FCEE0C;
   font-size: 24px;
   text-align: center;
 }
 
-.btn {
-  color: #ffd700;
-    font-size: 11px;
-    font-weight: 400;
-    font-family: sans-serif;
-    text-decoration: none;
-    padding: 10px 18px;
-    border: 1px solid #ffd700;
-    animation: fadeIn 1s 1.8s backwards;
-    white-space: nowrap;
-    
+
+.portfolio-box {
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .portfolio-item {
+      width: 500px;
+      height: 400px;
+      position: relative;
+      border-radius: 45px;
+      border: 1px solid #1e2647; 
+      margin: 15px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      overflow: hidden;
+
+      img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          z-index: 1;
+        }
+      &:hover{
+        img{
+          opacity: 0.2;
+          z-index: 0;
+        }
+      }
+        .hover-items{
+          position: absolute;
+          background-color: rgba(0, 0, 0, 0.75);
+          overflow: hidden;
+          width: 100%;
+          transition: .5s ease;
+          h2{
+            font-size: 3.5rem;
+            color:#FCEE0C;
+            width: 100%;
+            text-align: center;
+          }
+          p {
+            font-size: 2.5rem;
+            color: #FCEE0C;
+          }
+          .btn {
+            color: #FCEE0C;
+            font-size: 11px;
+            font-weight: 400;
+            font-family: sans-serif;
+            text-decoration: none;
+            padding: 10px 18px;
+            border: 1px solid #FCEE0C;
+            animation: fadeIn 1s 1.8s backwards;
+            white-space: nowrap;
+          }
+
+          .btn:hover {
+            transform: translateY(-3px);
+            background: #FCEE0C;
+            color: #333;
+          }
+        }
+    }
 }
 
-.btn:hover {
-  transform: translateY(-3px);
-  background: #ffd700;
-  color: #333;
-}
-
-.portfolio-page {
-  
-  .portfolio-item {
-      position: grid;
-      float: left;
-      width: 300px;
-      margin-left: 7%;
-      height: auto;
-      background-color: #2c2c6c;
-      border-color: #000000 #4785F8;
-        border-image: none;
-        border-radius: 0 0 0 0;
-        -moz-border-radius: 0 0 0 0;
-        -webkit-border-radius: 0 0 0 0;
-        border-style: solid;
-        border-width: 20px;
-        height: 300px;
-        width: 300px;
-      margin-bottom: 150px;
-    }
-  
-    .portfolio-item img {
-      width: 100%;
-      height: auto;
-    }
+.portfolio-item:hover .hover-items{
+  height: 100%;
 }

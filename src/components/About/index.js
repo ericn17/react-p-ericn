@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import {
+  faAngular,
   faCss3,
   faGitAlt,
   faHtml5,
@@ -39,6 +40,9 @@ const About = () => {
 
         <div className="stage-cube-cont">
           <div className="cubespinner">
+            <div className="face1">
+              <FontAwesomeIcon icon={faAngular} color="#DD0031" />
+            </div>
             <div className="face2">
               <FontAwesomeIcon icon={faHtml5} color="#F06529" />
             </div>

@@ -9,7 +9,7 @@ import ProfilePic from '../../assets/images/profile-pic.jpg'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const nameArray = ['r', 'i', 'c', ' ', ' ', 'N', 'g', 'u', 'y', 'e', 'n',',']
+  const nameArray = ['E', 'r', 'i', 'c', ' ', ' ', 'N', 'g', 'u', 'y', 'e', 'n',',']
   const jobArray = [
     'w',
     'e', 
@@ -44,7 +44,8 @@ const Home = () => {
             <br />
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m</span>
-            <img src={LogoTitle} alt="developer" />
+            <br/>
+            {/* <img src={LogoTitle} alt="developer" /> */}
             <AnimatedLetters 
               letterClass={letterClass}
               strArray={nameArray}
@@ -61,7 +62,7 @@ const Home = () => {
           </Link>
         </div>
         <img className="profile-pic" src={ProfilePic} alt="profile" />
-        <Logo/>
+        {/* <Logo/> */}
       </div>
       
       <Loader type="pacman" />
